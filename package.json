@@ -4,7 +4,7 @@
   "description": "who is on duty",
   "main": "today.js",
   "bin": {
-    "whoisonduty": "./index.js"
+    "whoisonduty": "./today.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
