@@ -1,13 +1,13 @@
 const dutyList = `
   <start> 2020-03-30 00:00:00
+  马志勇
+  刘沈
+  唐尧
   冯绍辉
   荆佳慧
   相莹
   李歌
   杨兰
-  马志勇
-  刘沈
-  唐尧
 `;
 
 function getCurrentDate() {
