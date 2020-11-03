@@ -1,0 +1,18 @@
+{
+  "name": "whoisonduty",
+  "version": "1.0.0",
+  "description": "who is on duty",
+  "main": "index.js",
+  "bin": {
+    "whoisonduty": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://admin@192.100.50.100:10010/r/whoisonduty.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
