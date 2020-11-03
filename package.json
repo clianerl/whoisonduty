@@ -2,7 +2,7 @@
   "name": "whoisonduty",
   "version": "1.0.0",
   "description": "who is on duty",
-  "main": "index.js",
+  "main": "today.js",
   "bin": {
     "whoisonduty": "./index.js"
   },
