@@ -2,9 +2,9 @@
   "name": "whoisonduty",
   "version": "1.0.0",
   "description": "who is on duty",
-  "main": "today.js",
+  "main": "api/today.js",
   "bin": {
-    "whoisonduty": "./today.js"
+    
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
