@@ -2,11 +2,12 @@
   "name": "whoisonduty",
   "version": "1.0.0",
   "description": "who is on duty",
-  "main": "api/today.js",
+  "main":"main.js",
   "bin": {
     
   },
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
