@@ -1,5 +1,5 @@
 const dutyList = `
-  <start> 2020-03-30 00:00:00
+  <start> 2021-03-01 00:00:00
   杨兰
   马志勇
   刘沈
@@ -8,6 +8,7 @@ const dutyList = `
   荆佳慧
   相莹
   李歌
+  蔡新宇
 `;
 
 function getCurrentDate() {
@@ -17,11 +18,11 @@ function getCurrentDate() {
 function getDutyInfo(file) {
   let [start, ...duty] = dutyList.split('\n').map(n => n.trim()).filter(n => n.trim().length);
   start = new Date(start.replace(/<\w+>/, '').trim());
-  return {start, duty};
+  return { start, duty };
 }
 
 function getPersonByDate(date) {
-  let {start, duty} = getDutyInfo();
+  let { start, duty } = getDutyInfo();
   if (start > date) {
     return 'No duty.';
   }
@@ -32,7 +33,7 @@ function getPersonByDate(date) {
 function whoisonduty(options = {}) {
   let person = getPersonByDate(getCurrentDate());
   if (options.list) {
-    let {duty} = getDutyInfo();
+    let { duty } = getDutyInfo();
     let personList = duty
       .map(n => ((n === person) ? '> ' : '  ') + n)
       .join('\n');
