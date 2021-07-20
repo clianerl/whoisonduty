@@ -1,15 +1,13 @@
 const dutyList = `
   <start> 2021-03-01 00:00:00
-  
+  张爽
+  杨兰
   马志勇
   刘沈
-  冯绍辉
   荆佳慧
   相莹
   李歌
   蔡新宇
-  张爽
-  杨兰
 `;
 
 function getCurrentDate() {
